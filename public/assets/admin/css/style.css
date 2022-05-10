@@ -1,0 +1,168 @@
+/*================================================================================
+	Item Name: Modern Admin - Clean Bootstrap 4 Dashboard HTML Template
+	Version: 1.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+.dataTables_paginate{
+    display: none;
+}
+.dataTables_info{
+    display: none;
+}
+
+.product-images .img-content{
+    position: relative;
+}
+
+.product-images .img-content a{
+    position: absolute;
+    top: 62%;
+    left: 11%;
+    background-color: #FF4961;
+    color: #fff;
+    display: none;
+}
+.product-images .img-content:hover a{
+    display: inline-block;
+}
+
+.area-btn{
+    margin: 10px;
+    color: #FFF!important;
+}
+
+.background{
+    background-color: #000;
+    padding: 80px 0;
+    position: relative;
+}
+.background .close{
+    position: absolute;
+    top: 43px;
+    right: 100px;
+    color: #FFF;
+    font-size: 28px;
+}
+.background .cv-content{
+    margin: 0 auto;
+}
+.background .cv-content .col-4{
+    background-color: #032461;
+    padding: 0 25px;
+}
+
+.background .cv-content .col-4 .heading{
+    margin-top: 20px;
+}
+.background .cv-content .col-4 .heading{
+    margin-top: 36px;
+}
+.background .cv-content .col-4 .heading h3{
+    color: #FFF;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.background .cv-content .col-4 .image{
+    width: 75%;
+    margin: 33px auto;
+}
+.background .cv-content .col-4 .image img{
+    width: 100%;
+}
+.background .cv-content .col-4 .details .title h4,.background .cv-content .col-4 .langauges .title h4{
+    color: #FFF;
+    font-size: 22px;
+    font-weight: bold;
+}
+.background .cv-content .col-4 .details .title hr,.background .cv-content .col-4 .langauges .title hr{
+    color: #fff;
+    background: #FFF;
+    margin-bottom: 28px;
+}
+.background .cv-content .col-4 .langauges{
+    margin-top: 40px;
+}
+.background .cv-content .col-4 .details h5,.background .cv-content .col-4 .langauges h5{
+    color: #fff;
+    margin-bottom: 28px;
+}
+.background .cv-content .col-4 .details h5 i{
+    margin-right: 10px;
+}
+
+.background .cv-content .col-8{
+    background-color: #FFF;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.background .cv-content .col-8 .education{
+    margin-top: 75px;
+}
+.background .cv-content .col-8 .education:first-of-type{
+    margin-top: 36px;
+}
+.background .cv-content .col-8 .education .title i{
+    float: left;
+    margin-right: 8px;
+    font-size: 26px;
+}
+.background .cv-content .col-8 .education .title h4{
+    font-size: 22px;
+    font-weight: bold;
+}
+.background .cv-content .col-8 .education .title hr{
+    background-color: #000;
+    width: 25%;
+    text-align: left;
+    margin: 10px 0 24px;
+    height: 1.3px;
+}
+.background .cv-content .col-8 .education .cont h5{
+    font-weight: bold;
+    font-size: 16px;
+}
+.background .cv-content .col-8 .education .cont h5 span{
+    font-weight: 300;
+    font-size: 15px;
+}
+.background .cv-content .col-8 .education .cont p{
+    float: left;
+}
+.background .cv-content .col-8 .education .cont p:first-of-type{
+    margin-right: 50px;
+}
+.background .cv-content .col-8 .experts .title hr{
+   width: 36%;
+}
+.background .cv-content .col-8 .experience .title hr{
+    width: 51%;
+ }
+ .background .cv-content .col-8 .consultancies .title hr{
+    width: 47%;
+ }
+ .background .cv-content .col-8 .publition .title hr{
+    width: 28%;
+ }
+.background .cv-content .col-8 .pro-skills .title{
+    clear: both;
+}
+.apexcharts-legend{
+    left: 156px!important;
+}
+.home-page .card-header{
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+}
+#donutchart svg g text{
+    float: left;
+}
+
